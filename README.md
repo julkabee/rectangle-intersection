@@ -85,13 +85,11 @@ FastAPI-сервис для вычисления пересечения прям
 ├── requirements.txt
 ├── src
 │   ├── __init__.py
-│   ├── __pycache__
 │   ├── geometry.py
 │   ├── main.py
 │   └── schemas.py
 ├── tests
 │   ├── __init__.py
-│   ├── __pycache__
 │   ├── test_api.py
 │   └── test_geometry.py
 └── Задача про ббоксы v2.pdf
