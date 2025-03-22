@@ -75,3 +75,29 @@ FastAPI-сервис для вычисления пересечения прям
    pytest tests/ --cov=src/ --cov-report=html
     ```
 3. **Отчет о покрытии доступен в** *htmlcov/index.html*:
+
+## Структура проекта
+.
+├── Dockerfile
+├── README.md
+├── rectangle-intersection.tar
+├── requirements.txt
+├── src
+│   ├── __init__.py
+│   ├── __pycache__
+│   ├── geometry.py
+│   ├── main.py
+│   └── schemas.py
+├── tests
+│   ├── __init__.py
+│   ├── __pycache__
+│   ├── test_api.py
+│   └── test_geometry.py
+└── Задача про ббоксы v2.pdf
+
+## Разработка и отладка
+- Логирование включено на уровне INFO. Логи выводятся в консоль при каждом запросе к /intersect.
+- Используйте http://127.0.0.1:8000/docs для интерактивной документации Swagger UI.
+
+## Контакты
+Если у вас есть вопросы или предложения, создайте issue в репозитории или свяжитесь с автором через GitHub.
