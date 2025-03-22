@@ -48,7 +48,7 @@ FastAPI-сервис для вычисления пересечения прям
 ## Экспорт Docker-образа
 **Сохраните образ в файл .tar**:
    ```bash
-   docker save -o nvi-solutions.tar nvi-solutions
+   docker save -o rectangle-intersection.tar rectangle-intersection
    ```
 
 ## Запуск через Docker
